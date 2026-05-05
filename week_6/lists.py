@@ -56,8 +56,9 @@ import random
 shopping_list = ["cheese", "apples", "bread", "cheese", "milk", "eggs", "cheese"]
 
 random_item = random.choice(shopping_list)
+shopping_list.append(["flour", "sugar", "baking powder"])
 
-print(random_item)
+print(shopping_list)
 
 #for item in shopping_list:
 #    print(item)
